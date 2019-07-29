@@ -1,0 +1,139 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body {
+	padding:0;
+	margin:0;
+	overflow-x:hidden;
+	background-image: url(../images/bj.png)
+}
+
+#nav2{height:50px;top:0px;width:100%;position:absolute; z-index:9;}
+
+.navi_head {
+	height: 50px;
+	background-color:#459df5;
+}
+.navi_body {
+	overflow: hidden;
+	height: 50px;
+	background: rgba(90,155,255,0.9);
+	transition: height ease 0.3s;
+}
+.navi_body:hover {
+	height: 200px;
+}
+.navi_title {
+	font-size: 18px;
+	line-height: 50px;
+	margin-top: 0;
+}
+.navi_head>div>span {
+	width: 150px;
+	text-align: center;
+	height: 300px;
+	display: inline-block;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 14px;
+	vertical-align: top;
+}
+.navi_head>div>span>p a {
+	color: #FFF;
+	text-decoration: none;
+}
+.navi_head>div>span>p a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+.navi_head>div>span:hover {
+	background: rgba(0,0,255,0.1);
+}
+/* 以上是导航代码*/
+
+/* 以上是导航代码*/
+/*固定的悬浮窗*/
+.clear:after{content:'\20';display:block;height:0;clear:both;visibility:hidden;}
+
+.yb_conct{position:fixed;z-index:9999999;top:200px;right:-127px;cursor:pointer;transition:all .3s ease;}
+.yb_bar ul li{width:180px;height:53px;font:16px/53px 'Microsoft YaHei';color:#fff;text-indent:54px;margin-bottom:3px;border-radius:3px;transition:all .5s ease;overflow:hidden;}
+.yb_bar .yb_top{background:#FF00DD url(../images/fixCont.png) no-repeat 0 0;}
+.yb_bar .yb_phone{background:#FF00DD url(../images/fixCont.png) no-repeat 0 -57px;}
+.yb_bar .yb_QQ{text-indent:0;background:#FF00DD url(../images/fixCont.png) no-repeat 0 -113px;}
+.yb_bar .yb_ercode{background:#FF00DD url(../images/fixCont.png) no-repeat 0 -169px;}
+.hd_qr{padding:0 29px 25px 29px;}
+.yb_QQ a{display:block;text-indent:54px;width:100%;height:100%;color:#fff;}
+/*固定的悬浮窗*/
+/*第一部分*/
+.aq{
+	margin-top: -60px;
+
+	
+}
+.a1 {
+	background:#09F;
+	padding:20px;
+}
+
+.a2 {
+	width:90%;
+	height:35px;
+	color: #FC0ADC;
+	font-size:20px;
+}
+
+.aa3 {
+	background:#09F;
+	padding:10px;
+}
+.a4 {
+	width: 100px;
+	height: 35px;
+	margin-left:45%;
+}
+.a5{
+	
+	margin-left:10%;
+}
+	
+.a6 {
+	text-align: center;
+}
+
+/*第一部分*/
+
+/*第五部分*/
+.b1 h1{
+	text-align: center;
+	color:#FF00DD;
+	margin-top:180px;
+}
+.b1 p{
+	padding-left:10%;
+	padding-right:10%;
+	
+}
+
+.b2{
+	margin-top:180px;
+	background-color:#0066FF;
+	height:50px;
+	text-align: center;
+	color:white;
+}
+.ppp{
+	margin-top:30px;
+	background-color:#0066FF;
+	height:50px;
+	text-align: center;
+	color:white;
+}
+/*第五部分*/
+/*增加部分*/
+
+
+
+
+/*增加部分*/
+
+
+
